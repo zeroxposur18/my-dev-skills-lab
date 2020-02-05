@@ -1,0 +1,29 @@
+body {
+    height: 25vh;
+    width: 50vh;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 2fr 2fr 1fr 1fr;
+    grid-template-areas: 
+    "hdr hdr"
+    "divs divs"
+    "inp btn";
+}
+h1 {
+    grid-area: hdr;
+}
+div {
+    grid-area: divs;
+}
+input {
+    grid-area: inp;
+}
+button {
+    grid-area: btn;
+}
+h1, div, input, button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
