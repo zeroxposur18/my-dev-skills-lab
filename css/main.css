@@ -1,18 +1,19 @@
-/* body {
-    height: 25vh;
-    width: 50vh;
-    margin: 0;
+body {
+    height:50vh;
+    width:50vw;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0fr;
     grid-template-areas: 
     "hdr hdr"
-    "ul ul"
-    "deleteButton li"
+    "tab tab"
     "inp btn";
 }
 h1 {
     grid-area: hdr;
+}
+table {
+    grid-area: tab;
 }
 input {
     grid-area: inp;
@@ -20,14 +21,9 @@ input {
 button {
     grid-area: btn;
 }
-ul {
-    grid-area: ul;
-}
-li {
-    grid-area: li;
-}
-h1, input, button, ul, li {
+
+h1, input, button, table {
     display: flex;
     justify-content: center;
     align-items: center;
-}  */
+} 

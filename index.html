@@ -8,18 +8,24 @@
  	src="https://code.jquery.com/jquery-3.2.1.min.js"
  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
  	crossorigin="anonymous"></script>
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <script defer src ="js/main.js"></script>
-    <title>My developer sklls</title>
+    <title>My developer skills</title>
 </head>
 <body>
     <h1>MY DEVELOPER SKILLS</h1>
-    <ul class ='ul'>
-    <button class ='deleteBtn'>
-        <li class = 'li'></li>
-    </ul>
-    <input class = 'input'>
-    <button class = 'btn' >Add SKills</button>
+    <table id="skills" class="table">
+    <tbody>
+        <tr>
+        <td><button class ="deleteBtn">Remove</button></td>
+        <td>Cascading Style Sheets (CSS)</td>
+        </tr>
+        <tr>
+        <td><button class ="deleteBtn">Remove</button></td>
+        <td>Hypertext Markup Language (HTML)</td>
+        </tr>
+    </tbody>
+    <input class="input">
+    <button id = 'btn' >Add Skills</button>
 </body>
 </html>
