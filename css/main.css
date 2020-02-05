@@ -7,14 +7,12 @@
     grid-template-rows: 2fr 2fr 1fr 1fr;
     grid-template-areas: 
     "hdr hdr"
-    "divs divs"
+    "ul ul"
+    "deleteButton li"
     "inp btn";
 }
 h1 {
     grid-area: hdr;
-}
-div {
-    grid-area: divs;
 }
 input {
     grid-area: inp;
@@ -22,8 +20,14 @@ input {
 button {
     grid-area: btn;
 }
-h1, div, input, button{
+ul {
+    grid-area: ul;
+}
+li {
+    grid-area: li;
+}
+h1, input, button, ul, li {
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}  */
