@@ -1,9 +1,13 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    height:50vh;
-    width:50vw;
+    height:50px;
+    width: 500px;
+    margin: 0;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr 0fr;
+    grid-template-rows: 1fr 1fr auto;
     grid-template-areas: 
     "hdr hdr"
     "tab tab"
@@ -11,9 +15,11 @@ body {
 }
 h1 {
     grid-area: hdr;
+    background-color: aquamarine;
 }
 table {
     grid-area: tab;
+    color: orange;
 }
 input {
     grid-area: inp;

@@ -1,6 +1,4 @@
-// const li = $('.li');
-// const input = $('.input');
-// const ul = $('.ul');
+
 $('#btn').click(function(evt){
     console.log($('.input'));
     var newRow = `<tr>
@@ -8,8 +6,7 @@ $('#btn').click(function(evt){
                     <td>${$('.input')[0].value}</td>
                     </tr>`
     $('#skills tbody').append(newRow);
-    // $('body').append($newLink);
- 
+    
 });
 
 
